@@ -27,15 +27,13 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">font: 700 18pt &quot;Arial&quot;;
-font: 18pt &quot;Academy Engraved LET&quot;;
-QLabel {
-background-color: rgb(108, 110, 110);
-  qproperty-alignment: 'AlignVCenter | AlignRight';
-  border: 1px solid gray;
+     <string notr="true">QLabel {
+    background-color: rgb(108, 110, 110);
+    qproperty-alignment: 'AlignVCenter | AlignRight';
+    border: 1px solid gray;
+    background-color: rgba(159, 193, 199, 207);
 }
-
-background-color : white;</string>
+</string>
     </property>
     <property name="text">
      <string>0</string>
