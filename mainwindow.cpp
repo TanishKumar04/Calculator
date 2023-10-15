@@ -29,5 +29,14 @@ MainWindow::~MainWindow()
 
 void MainWindow::digit_pressed(){
 
+    QPushButton *button = (QPushButton*)sender();
+    double labelNumber;
+    QString newLabel;
+
+    labelNumber = (ui->label->text() + button->text()).toDouble();
+
+    newLabel = QString::number(labelNumber,'g',15);
+
+    ui->label->setText(newLabel);
 
 }
